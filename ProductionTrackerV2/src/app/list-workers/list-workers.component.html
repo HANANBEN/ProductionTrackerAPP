@@ -1,0 +1,24 @@
+<div class="container">
+  <h2>List of Workers</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>First Name </th>
+        <th>Last Name </th>
+        <th>Birth Date </th>
+        <th>Action </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let worker of workers">
+        <td>{{worker.id }}</td>
+        <td>{{worker.firstName }}</td>
+        <td>{{worker.lastname }}</td>
+        <td>
+          <button class="btn btn-primary" (click)="editWorker(worker.id)">Edit</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
