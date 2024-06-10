@@ -7,7 +7,6 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ControlPanelComponent } from './control-panel/control-panel.component';
-import { EditWorkerComponent } from './edit-worker/edit-worker.component';
 import { ListWorkersService } from './list-workers.service';
 import { ListWorkersComponent } from './list-workers/list-workers.component';
 @NgModule({
@@ -15,7 +14,6 @@ import { ListWorkersComponent } from './list-workers/list-workers.component';
     AppComponent,
     ControlPanelComponent,
     ListWorkersComponent,
-    EditWorkerComponent
   ],
   imports: [
     BrowserModule,

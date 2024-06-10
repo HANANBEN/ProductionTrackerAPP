@@ -10,7 +10,7 @@ import { Worker } from './models/worker.model';
 export class ControlPanelService {
 
 
-  private apiUrl = 'http://localhost:58101';
+  private apiUrl = 'http://localhost:50125';
 
   constructor(private http: HttpClient) {}
 
